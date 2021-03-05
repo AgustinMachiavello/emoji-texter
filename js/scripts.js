@@ -135,9 +135,8 @@ function copyToClipboard(elem) {
 
 document.getElementById("copyToClipboard").addEventListener("click", function() {
     copyToClipboard(document.getElementById("inputText"));
-    const alert = document.getElementById("copyAlert")
-    alert.classList.add('show')
+    $('#copyAlert').collapse('show')
     setTimeout(function(){ 
-        alert.classList.remove('show')
+        $('#copyAlert').collapse('hide')
       }  , 1500 );
 });

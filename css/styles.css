@@ -28,16 +28,6 @@
     background-size: cover;
 }
 
-#copyAlert{
-    height: 0px;
-    display: none;
-    transition: all 0.5s ease;
-}
-
-#copyAlert.show {
-    display: block;
-    height: unset;
-}
 
 
 
