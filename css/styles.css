@@ -1,0 +1,91 @@
+.row {
+    margin: 0px;
+}
+
+.col {
+    padding: 0px;
+}
+
+.btn.bg-light-blue {
+    color: var(--plain-white);
+    transition: all 0.5s ease;
+}
+
+.btn.bg-light-blue:hover {
+    background-color: var(--light-pink);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#inputForm {
+    width: 100%;
+}
+
+.page-bg {
+    background-image: url('../assets/img/page-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#copyAlert{
+    height: 0px;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+#copyAlert.show {
+    display: block;
+    height: unset;
+}
+
+
+
+/* Responsive */
+
+/* xs and down */
+@media screen and (max-width: 576px) {
+}
+
+/* sm and up*/
+@media screen and (min-width: 576px) {
+}
+
+/* md and up*/
+@media screen and (min-width: 768px) {
+    
+}
+
+/* lg and up*/
+@media screen and (min-width: 992px) {
+    #inputForm {
+        width: 50%;
+    }
+}
+
+/* xl and up*/
+@media screen and (min-width: 1200px) {
+}
+
+/* Landscape responsive */
+@media only screen and (orientation: landscape) {
+    /* xs and down */
+    @media screen and (max-width: 576px) {
+    }
+
+    /* sm and up*/
+    @media screen and (min-width: 576px) {
+    }
+
+    /* md and up*/
+    @media screen and (min-width: 768px) {
+    }
+
+    /* lg and up*/
+    @media screen and (min-width: 992px) { 
+    }
+
+    /* xl and up*/
+    @media screen and (min-width: 1200px) {
+    }
+}

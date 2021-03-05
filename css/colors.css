@@ -1,0 +1,22 @@
+:root {
+    --obscure-red: #A90011;
+    --red: #D11D27;
+    --light-red: #E53C38;
+    --plain-white: #FFFFFF;
+    --plain-black: #000000;
+    --light-blue: #585DDC;
+    --light-pink: #fd79a8;
+    --light-green: #2ecc71;
+}
+
+.bg-light-pink {
+    background-color: var(--light-pink);
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
+.bg-light-green {
+    background-color: var(--light-green);
+}

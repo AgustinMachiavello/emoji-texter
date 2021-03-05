@@ -1,0 +1,123 @@
+/* Start Local Fonts */
+@font-face {
+    font-family: "Helvetica Neue Display";
+    src: url("../assets/fonts/HelveticaNeueDisplay/_H_HelveticaNeueInterface_2.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../assets/fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../assets/fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+* {
+    /* Default font family */
+    font-family: "Roboto";
+}
+
+/* Start Font Sizes */
+.font-large {
+    font-size: 5rem;
+}
+
+.font-semi-large {
+    font-size: 3.5rem;
+}
+
+.font-medium {
+    font-size: 2.5rem;
+}
+
+.font-small {
+    font-size: 1.5rem;
+}
+
+.font-extra-small {
+    font-size: 1rem;
+}
+
+/* Start Font Families */
+.font-f-roboto {
+    font-family: 'Roboto';
+}
+
+.font-f-helvetica {
+    font-family: 'Helvetica Neue Display';
+}
+
+/* Start Font Weights */
+.font-extra-light {
+    font-weight: 200;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-semi-bold {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+/* Start Text Color */
+.text-light-red {
+    color: var(--light-red);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-obscure-red {
+    color: var(--obscure-red);
+}
+
+
+
+
+
+/* Responsive */
+
+/* xs and down */
+@media screen and (max-width: 576px) {
+    .font-large {
+        font-size: 3rem;
+    }
+
+    .font-semi-large {
+        font-size: 2rem;
+    }
+
+    .font-medium {
+        font-size: 1.5rem;
+    }
+    
+    .font-small {
+        font-size: 1rem;
+    }
+}

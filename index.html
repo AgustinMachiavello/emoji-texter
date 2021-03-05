@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Site Info -->
+  <title>Emoji texter 😹 - Add emojis to text</title>
+  <meta name="description" content="Emoji texter adds emojis to your text">
+  <meta name="author" content="My name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <!-- Colors -->
+  <link rel="stylesheet" href="css/colors.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+
+  <!-- Main (Use 'main' only in index)-->
+  <main id="page-wrapper" class="p-5 px-1 p-lg-5 vh-100 bg-light-blue page-bg">
+    <h1 class="font-semi-large text-center text-uppercase text-white"><span class="random-emoji"></span>emoji texter<span class="random-emoji"></span></h1>
+    <h2 class="font-small text-center text-white">Replace <span class="random-emoji"></span> empty <span class="random-emoji"></span> spaces <span class="random-emoji"></span> with <span class="random-emoji"></span> random <span class="random-emoji"></span> emojis</h2>
+    <form id="inputForm" class="p-4 px-2 p-lg-4 mt-5 mx-auto text-center shadow-lg rounded bg-white">
+      <div class="form-group">
+        <label class="font-extra-small" for="exampleInputEmail1">Enter text</label>
+        <textarea type="text" class="form-control" id="inputText" aria-describedby="inputText" placeholder="Your text here lol"></textarea>
+        <!-- small id="inputText" class="form-text text-muted">Bep bop</small -->
+      </div>
+      <div class="btn-group py-3">
+        <button id="copyToClipboard" type="button" class="btn bg-light-blue shadow btn-block">Copy text</button>
+      </div>
+      <div id="copyAlert" class="p-3">
+        <span class="p-3 bg-light-green rounded text-white">Copied to cliboard <span class="random-emoji"></span>
+      </div>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+  </footer>
+
+  <!-- JQuery 3.6 -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  
+  <!-- Bootstrap Scripts -->
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Custom Scripts -->
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
